@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Realm (3.17.0):
+    - Realm/Headers (= 3.17.0)
+  - Realm/Headers (3.17.0)
+  - RealmSwift (3.17.0):
+    - Realm (= 3.17.0)
+  - Toaster (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Realm
+  - RealmSwift
+  - Toaster
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Realm
+    - RealmSwift
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Realm: b30db41ff34fc858ffc25ba8d44a82c164e7ccd0
+  RealmSwift: fe733e459d60dc7b6971d4cbee2eb4854097d12c
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+
+PODFILE CHECKSUM: 30353a4dea91c1761c288ed7ab5facb762ccf4c2
+
+COCOAPODS: 1.6.1

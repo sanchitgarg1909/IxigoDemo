@@ -8,20 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		8305023122C789910043DE31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305023022C789910043DE31 /* AppDelegate.swift */; };
-		8305023322C789910043DE31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305023222C789910043DE31 /* ViewController.swift */; };
-		8305023622C789910043DE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305023422C789910043DE31 /* Main.storyboard */; };
 		8305023822C789920043DE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8305023722C789920043DE31 /* Assets.xcassets */; };
 		8305023B22C789920043DE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305023922C789920043DE31 /* LaunchScreen.storyboard */; };
+		8305024A22C7B4290043DE31 /* FlightListInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305024822C7B4290043DE31 /* FlightListInfoCell.swift */; };
+		8305024B22C7B4290043DE31 /* FlightListInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8305024922C7B4290043DE31 /* FlightListInfoCell.xib */; };
+		8305024D22C7C25C0043DE31 /* FlightListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305024C22C7C25C0043DE31 /* FlightListViewController.swift */; };
+		8305024F22C7C2A70043DE31 /* FlightList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8305024E22C7C2A70043DE31 /* FlightList.storyboard */; };
+		8305025222C7ED390043DE31 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305025122C7ED390043DE31 /* NetworkController.swift */; };
+		8305025622C7F17D0043DE31 /* FlightInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305025522C7F17D0043DE31 /* FlightInfoData.swift */; };
+		8305025822C7F19B0043DE31 /* AirlineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305025722C7F19B0043DE31 /* AirlineData.swift */; };
+		8305025A22C7F2090043DE31 /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305025922C7F2090043DE31 /* AirportData.swift */; };
+		8305025D22C881DF0043DE31 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305025C22C881DF0043DE31 /* Constants.swift */; };
+		8305025F22C882290043DE31 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305025E22C882290043DE31 /* Utils.swift */; };
+		8305026122C882350043DE31 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305026022C882350043DE31 /* Extensions.swift */; };
+		8305026322C882400043DE31 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305026222C882400043DE31 /* Enums.swift */; };
+		8305026522C8ABF70043DE31 /* VCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305026422C8ABF70043DE31 /* VCManager.swift */; };
+		8305026922C952290043DE31 /* RealmBaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8305026822C952290043DE31 /* RealmBaseUtils.swift */; };
+		D6EA18F7489712A3F850443B /* Pods_IxigoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D26D63A296D7AE3B168E1F /* Pods_IxigoDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54D26D63A296D7AE3B168E1F /* Pods_IxigoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IxigoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8305022D22C789910043DE31 /* IxigoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IxigoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8305023022C789910043DE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8305023222C789910043DE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8305023522C789910043DE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8305023722C789920043DE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8305023A22C789920043DE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8305023C22C789920043DE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8305024822C7B4290043DE31 /* FlightListInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListInfoCell.swift; sourceTree = "<group>"; };
+		8305024922C7B4290043DE31 /* FlightListInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightListInfoCell.xib; sourceTree = "<group>"; };
+		8305024C22C7C25C0043DE31 /* FlightListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightListViewController.swift; sourceTree = "<group>"; };
+		8305024E22C7C2A70043DE31 /* FlightList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlightList.storyboard; sourceTree = "<group>"; };
+		8305025122C7ED390043DE31 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		8305025522C7F17D0043DE31 /* FlightInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoData.swift; sourceTree = "<group>"; };
+		8305025722C7F19B0043DE31 /* AirlineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineData.swift; sourceTree = "<group>"; };
+		8305025922C7F2090043DE31 /* AirportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
+		8305025C22C881DF0043DE31 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8305025E22C882290043DE31 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8305026022C882350043DE31 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8305026222C882400043DE31 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8305026422C8ABF70043DE31 /* VCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCManager.swift; sourceTree = "<group>"; };
+		8305026822C952290043DE31 /* RealmBaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmBaseUtils.swift; sourceTree = "<group>"; };
+		8305026A22C952940043DE31 /* Ixigo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ixigo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9C6C8A1BC01482C57248F2D6 /* Pods-IxigoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IxigoDemo.debug.xcconfig"; path = "Target Support Files/Pods-IxigoDemo/Pods-IxigoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F29C1E10FAD17CEBB79FFFE6 /* Pods-IxigoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IxigoDemo.release.xcconfig"; path = "Target Support Files/Pods-IxigoDemo/Pods-IxigoDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +58,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EA18F7489712A3F850443B /* Pods_IxigoDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		700B32BBB24FF0ECAA2A1353 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6C8A1BC01482C57248F2D6 /* Pods-IxigoDemo.debug.xcconfig */,
+				F29C1E10FAD17CEBB79FFFE6 /* Pods-IxigoDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8305022422C789910043DE31 = {
 			isa = PBXGroup;
 			children = (
 				8305022F22C789910043DE31 /* IxigoDemo */,
 				8305022E22C789910043DE31 /* Products */,
+				700B32BBB24FF0ECAA2A1353 /* Pods */,
+				9F31D54EE04C034A87DEEA13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,83 @@
 		8305022F22C789910043DE31 /* IxigoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8305025B22C881920043DE31 /* Extras */,
+				8305025022C7ED1C0043DE31 /* Controllers */,
+				8305024522C7B3F30043DE31 /* Cells */,
+				8305024422C7B3E60043DE31 /* Model */,
+				8305024322C7B3D30043DE31 /* StoryBoards */,
+				8305024222C7B3C60043DE31 /* ViewControllers */,
 				8305023022C789910043DE31 /* AppDelegate.swift */,
-				8305023222C789910043DE31 /* ViewController.swift */,
-				8305023422C789910043DE31 /* Main.storyboard */,
 				8305023722C789920043DE31 /* Assets.xcassets */,
 				8305023922C789920043DE31 /* LaunchScreen.storyboard */,
 				8305023C22C789920043DE31 /* Info.plist */,
 			);
 			path = IxigoDemo;
+			sourceTree = "<group>";
+		};
+		8305024222C7B3C60043DE31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8305024C22C7C25C0043DE31 /* FlightListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8305024322C7B3D30043DE31 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				8305024E22C7C2A70043DE31 /* FlightList.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		8305024422C7B3E60043DE31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8305025522C7F17D0043DE31 /* FlightInfoData.swift */,
+				8305025722C7F19B0043DE31 /* AirlineData.swift */,
+				8305025922C7F2090043DE31 /* AirportData.swift */,
+				8305026822C952290043DE31 /* RealmBaseUtils.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8305024522C7B3F30043DE31 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8305024822C7B4290043DE31 /* FlightListInfoCell.swift */,
+				8305024922C7B4290043DE31 /* FlightListInfoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8305025022C7ED1C0043DE31 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8305025122C7ED390043DE31 /* NetworkController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8305025B22C881920043DE31 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				8305025C22C881DF0043DE31 /* Constants.swift */,
+				8305025E22C882290043DE31 /* Utils.swift */,
+				8305026022C882350043DE31 /* Extensions.swift */,
+				8305026222C882400043DE31 /* Enums.swift */,
+				8305026422C8ABF70043DE31 /* VCManager.swift */,
+				8305026A22C952940043DE31 /* Ixigo-Bridging-Header.h */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		9F31D54EE04C034A87DEEA13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54D26D63A296D7AE3B168E1F /* Pods_IxigoDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8305023F22C789920043DE31 /* Build configuration list for PBXNativeTarget "IxigoDemo" */;
 			buildPhases = (
+				DEBA4E0485CB992C502ACA69 /* [CP] Check Pods Manifest.lock */,
 				8305022922C789910043DE31 /* Sources */,
 				8305022A22C789910043DE31 /* Frameworks */,
 				8305022B22C789910043DE31 /* Resources */,
+				490FFF4917414B729921F42C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,34 +235,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				8305023B22C789920043DE31 /* LaunchScreen.storyboard in Resources */,
+				8305024B22C7B4290043DE31 /* FlightListInfoCell.xib in Resources */,
 				8305023822C789920043DE31 /* Assets.xcassets in Resources */,
-				8305023622C789910043DE31 /* Main.storyboard in Resources */,
+				8305024F22C7C2A70043DE31 /* FlightList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		490FFF4917414B729921F42C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IxigoDemo/Pods-IxigoDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IxigoDemo/Pods-IxigoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBA4E0485CB992C502ACA69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IxigoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8305022922C789910043DE31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8305023322C789910043DE31 /* ViewController.swift in Sources */,
+				8305025222C7ED390043DE31 /* NetworkController.swift in Sources */,
+				8305025822C7F19B0043DE31 /* AirlineData.swift in Sources */,
+				8305025F22C882290043DE31 /* Utils.swift in Sources */,
+				8305025622C7F17D0043DE31 /* FlightInfoData.swift in Sources */,
 				8305023122C789910043DE31 /* AppDelegate.swift in Sources */,
+				8305026922C952290043DE31 /* RealmBaseUtils.swift in Sources */,
+				8305026122C882350043DE31 /* Extensions.swift in Sources */,
+				8305026522C8ABF70043DE31 /* VCManager.swift in Sources */,
+				8305024D22C7C25C0043DE31 /* FlightListViewController.swift in Sources */,
+				8305024A22C7B4290043DE31 /* FlightListInfoCell.swift in Sources */,
+				8305025A22C7F2090043DE31 /* AirportData.swift in Sources */,
+				8305025D22C881DF0043DE31 /* Constants.swift in Sources */,
+				8305026322C882400043DE31 /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8305023422C789910043DE31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8305023522C789910043DE31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8305023922C789920043DE31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +449,7 @@
 		};
 		8305024022C789920043DE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6C8A1BC01482C57248F2D6 /* Pods-IxigoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +468,7 @@
 		};
 		8305024122C789920043DE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29C1E10FAD17CEBB79FFFE6 /* Pods-IxigoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
